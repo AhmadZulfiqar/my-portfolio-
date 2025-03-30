@@ -1,0 +1,605 @@
+.nav{
+    position:sticky;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(247, 247, 247);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+h1{
+    font-size: 2.5vw;
+    margin-left: 5vw;
+    color: rgb(24, 101, 255);
+}
+#bar{
+    display: flex;
+    margin-left: 25vw;
+}
+li{
+    list-style: none;
+    padding-top: 2vw;
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: rgb(24, 101, 255);
+    border-bottom: 3px solid rgb(24, 101, 255);
+    transition: all ease-in 0.1s;
+}
+.box1{
+    width: 40vw;
+   
+    height: 35vw;
+    padding: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7vw;
+    padding-left: 6vw;
+}
+#hi{
+    font-size: 2vw;
+    font-weight: bold;
+}
+#name{
+    font-size: 3vw;
+    font-weight: bold;
+}
+#ahmad{
+    color: rgb(24, 101, 255);
+    text-decoration: underline;
+    z-index: 1;
+}
+#element{
+    font-size: 2.5vw;
+    font-weight: bold;
+    
+}
+#main{
+    display: flex;
+}
+#ahmadpng{
+    width: 30vw;
+    clip-path: circle(50% at 50% 50%);
+
+}
+.png{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    height: 30vw;
+    box-shadow: 0px 1px 15px 10px rgb(24, 101, 255);
+}
+.png:hover{
+    box-shadow: 0px 1px 10px 10px rgb(24, 101, 255);
+}
+img:hover{
+    width: 31vw;
+}
+b{
+    color: rgb(24, 101, 255);
+}
+.para{
+    font-size: 1.7vw;
+}
+#ab{
+    text-align: center;
+    text-decoration: underline;
+}
+.box2{
+    width: 50vw;
+}
+.section{
+    display: flex;
+
+}
+#code{
+    width: 40vw;
+}
+.b1{
+    width: 60vw;
+ 
+}
+#para1{
+    font-size: 2vw;
+}
+.b2{
+    width: 70vw;
+    padding: 5vw;
+}
+#im{
+    font-size: 3vw;
+}
+#section2{
+    display: flex;
+}
+.s1{
+    width: 40vw;
+    padding: 5vw;
+    
+}
+.skill1{
+    display: flex;
+    font-size: 1.8vw;
+    box-shadow: 1px -1px 5px gray;
+    padding: 1vw;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ht{
+    margin-left: 3vw;
+}
+i{
+    color:rgb(24, 101, 255);
+}
+#line1{
+    width: 35vw;
+    height: 4px;
+    background-color :rgb(24, 101, 255);
+    margin-bottom: 3vw;
+}
+#line2{
+    width: 28vw;
+    height: 4px;
+    background-color :rgb(24, 101, 255);
+    margin-bottom: 3vw;
+}
+#line3{
+    width: 30vw;
+    height: 4px;
+    background-color :rgb(24, 101, 255);
+    margin-bottom: 3vw;
+}
+#line4{
+    width: 32vw;
+    height: 4px;
+    background-color :rgb(24, 101, 255);
+    margin-bottom: 3vw;
+}
+#line5{
+    width: 38vw;
+    height: 4px;
+    background-color :rgb(24, 101, 255);
+    margin-bottom: 3vw;
+}
+#code1{
+    width: 39vw;
+}
+.s2{
+    width: 48vw;
+    padding: 5vw;
+}
+#c{
+    width: 2vw;
+}
+#per1{
+    margin-left: 24vw;
+
+}
+#per2{
+    margin-left: 25.2vw;
+
+}
+#per3{
+    margin-left: 20vw;
+
+}
+#per4{
+    margin-left: 27.5vw;
+
+}
+#per5{
+    margin-left: 25vw;
+
+}
+.btns{
+    padding: 5vw;
+}
+#section3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    width: 50vw;
+    margin-left: 2vw;
+    padding: 2vw;
+}
+#proj{
+    margin-left: 0vw;
+    
+}
+#w1{
+    font-size: 2.7vw;
+}
+#weather{
+    font-size: 1.7vw;
+}
+.p2{
+    width: 50vw;
+    margin-top: 5vw;
+    padding: 1vw;
+}
+button{
+    width: 20vw;
+    height: 5vw;
+    margin-top: 2vw;
+    background-color :rgb(24, 101, 255);
+    color: white;
+    font-size: 2vw;
+    border: none;
+    text-decoration: none;
+    border-radius: 2vw;
+    
+}
+#projects{
+    text-align: center;
+}
+#ww{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: 1px 1px 10px rgb(24, 101, 255);
+    transition: all ease 0.2s;
+
+}
+#todo{
+    font-size: 1.7vw;
+}
+#cal{
+    font-size: 1.7vw;
+}
+#fact{
+    font-size: 1.7vw;
+}
+#unit{
+    font-size: 1.7vw;
+}
+#weat{
+    width: 40vw;
+    border: none;
+    border-radius: 3vw;
+}
+#weat:hover {
+   
+    transition: all ease 0.2s;
+    box-shadow: 1px 1px 10px 5px rgb(24, 101, 255);
+    
+}
+#list{
+    width: 30vw;
+    border: none;
+    border-radius: 3vw;
+}
+#list:hover{
+    transition: all ease 0.2s;
+    box-shadow: 1px 1px 10px 5px rgb(24, 101, 255);  
+}
+#appcal:hover{
+    transition: all ease 0.2s;
+    box-shadow: 1px 1px 10px 5px rgb(24, 101, 255);  
+}
+#appcal{
+    width: 25vw;
+    border: none;
+    border-radius: 3vw;
+}
+#facto:hover{
+    transition: all ease 0.2s;
+    box-shadow: 1px 1px 10px 5px rgb(24, 101, 255);  
+}
+#facto{
+    width: 25vw;
+    border: none;
+    border-radius: 3vw;
+}
+#converter:hover{
+    transition: all ease 0.2s;
+    box-shadow: 1px 1px 10px 5px rgb(24, 101, 255);  
+}
+#converter{
+    width: 40vw;
+    border: none;
+    border-radius: 3vw;
+}
+#menu{
+    width: 5vw;
+    background-color:rgb(247, 247, 247);
+    border-radius: 0;
+    position: absolute;
+    margin-top: 0.7vw;
+    display: none;
+}
+.slide{
+   display: none;
+}
+
+#menu:hover{
+    box-shadow: none;
+}
+#box{
+    display: flex;
+}
+#github{
+    font-size: 4vw;
+    position: absolute;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+#cv{
+    width: 14vw;
+    height: 4vw;
+    margin-left: 8vw;
+    cursor: pointer;
+
+}
+#cvv{
+    color: white;
+}
+@media (max-width:600px) {
+    #github{
+        font-size: 10vw;
+        position: absolute;
+        margin-top: 2vw;
+        cursor: pointer;
+    }
+    #cv{
+        width: 35vw;
+        height: 10vw;
+        margin-left:15vw;
+        font-size: 5vw;
+        border-radius: 5vw;
+        cursor: pointer;
+    
+    }   
+    .slide{
+        display: none;
+        height:100vw;
+        border-radius: 5vw;
+        background-color: rgba(24, 101, 255, 0.589);
+        backdrop-filter: blur(10px);
+        width: 50vw;
+        z-index: 100;
+        position:absolute;
+    }
+    #bb{
+        color: white;
+    }
+    .sl1{
+        text-align: center;
+        display: block;
+        padding: 5vw;
+        border: none;
+    }
+    .nav{
+        position:sticky;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(247, 247, 247);
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 100;
+    }   
+    #main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1{
+        font-size: 5vw;
+        margin-left: 10vw;
+        color: rgb(24, 101, 255);
+        
+    } 
+    li{
+        display:none;
+
+    }
+    #menu{
+        display: block;
+        font-size: 5vw;
+        margin-top: 3vw;
+     
+    }
+    .box1{
+        width: 80vw;
+        height: 35vw;
+        padding: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 7vw;
+        padding-left: 6vw;
+    }
+    #hi{
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    #name{
+        font-size: 8vw;
+        font-weight: bold;
+    }
+    #ahmad{
+        color: rgb(24, 101, 255);
+        text-decoration: underline;
+        z-index: 1;
+    }
+    #element{
+        font-size: 7vw;
+        font-weight: bold;
+        
+    }
+    #main{
+        display: flex;
+    }
+    #ahmadpng{
+        width: 60vw;
+        clip-path: circle(50% at 50% 50%);
+    
+    }
+    .png{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 20vw;
+        margin-top: 10vw;
+        height: 60vw;
+        box-shadow: 0px 1px 15px 10px rgb(24, 101, 255);
+    }
+    .para{
+        font-size: 5vw;
+    
+    }
+    #about{
+        margin-top: 75vw;
+    }
+    .section{
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        
+    }
+    #code{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    #para1{
+        font-size:4vw;
+        width: 87vw;
+    }
+    #im{
+        font-size: 6vw;
+    }
+    #section2{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 85vw;
+    }
+    #code1{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .skill1{
+        height: 7vw;
+        font-size: 5vw;
+        padding-top: 4vw;
+        padding-bottom: 2vw;
+    }
+    .s1{
+        width: 85vw;
+    }
+    #per1{
+        margin-left: 50vw;
+    }
+    #per2{
+        margin-left: 54vw;
+    }
+    #per4{
+        margin-left: 61vw;
+    }
+    #per3{
+        margin-left: 40vw;
+    }
+    #per5{
+        margin-left: 52vw;
+    }
+    #line1{
+     width: 75vw;   
+    }
+    #line2{
+     width: 60vw;   
+    }
+    #line5{
+     width: 78vw;   
+    }
+    #line3{
+     width: 65vw;   
+    }
+    #line4{
+     width: 70vw;   
+    }
+    #c{
+        width: 7vw;
+    }
+    #section3{
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+    }
+    #weat{
+        width: 90vw;
+    }
+    .p1{
+        width: 85vw;
+    }
+    #weather{
+        font-size: 5vw;
+    }
+    #proj{
+        font-size: 7vw;
+    }
+    .p2{
+        width: 87vw;
+    }
+    #w1{
+        font-size: 5vw;
+        padding-left: 3vw;
+    }
+    #bt1{
+        width: 50vw;
+        height: 10vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        margin-top: 5vw;
+    }
+    
+    #list{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    #todo{
+        font-size: 5vw;
+    }
+    #appcal{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    #cal{
+        font-size: 5vw;
+    }
+    #facto{
+        width: 60vw;
+        margin-left: 15vw;
+    }
+    #fact{
+        font-size: 5vw;
+    }
+    #converter{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    #unit{
+        font-size: 5vw;
+    }
+    #ab{
+        font-size: 7vw;
+        text-align: left;
+        margin-left: 37vw;
+    }
+    #projects{
+        font-size: 7vw;
+        text-decoration: underline;
+        text-align: left;
+        margin-left: 37vw;
+    }
+}
