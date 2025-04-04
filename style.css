@@ -7,16 +7,58 @@
     top: 0;
     overflow: hidden;
     z-index: 100;
+    animation-name: nav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 98vw;
 }
-
-h1{
+@keyframes nav{
+    from{
+        margin-top: -20vw;
+    }
+    to{
+        margin-top: 0vw;
+    }
+}
+#zulfi{
     font-size: 2.5vw;
     margin-left: 5vw;
     color: rgb(24, 101, 255);
+    position:relative;
+    animation-name: ahmad;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    margin-left: -50vw;
+    animation-fill-mode: forwards;
 }
+@keyframes ahmad {
+    from{
+        margin-left: -50vw;
+    }
+    to{
+        margin-left: 5vw;
+    }
+}
+
 #bar{
     display: flex;
     margin-left: 25vw;
+    animation-name: navbar;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 98vw;
+    margin-left: 100vw;
+}
+@keyframes navbar{
+    from{
+        margin-left: 100vw;
+    }
+    to{
+        margin-left: 50vw;
+    }
 }
 li{
     list-style: none;
@@ -24,6 +66,32 @@ li{
     margin-left: 6vw;
     font-size: 1.5vw;
     font-weight: bold;
+    position: relative;
+}
+li::after{
+    content:"";
+    left: 0;
+    bottom: 0;
+    background-color: rgb(24, 101, 255);
+    width: 0%;
+    height: 3px;
+    position: absolute;
+}
+li:hover::after{
+    animation-name: underline;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes underline {
+    from{
+        left: 0;
+        width: 0;
+    }
+    to{
+        left: 0;
+        width: 100%;
+    }
 }
 a{
     text-decoration: none;
@@ -31,18 +99,32 @@ a{
 }
 a:hover{
     color: rgb(24, 101, 255);
-    border-bottom: 3px solid rgb(24, 101, 255);
+    
     transition: all ease-in 0.1s;
 }
 .box1{
     width: 40vw;
-   
     height: 35vw;
     padding: 5vw;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 7vw;
     padding-left: 6vw;
+    position: absolute;
+    left: -50vw;
+    animation-name: box;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
+@keyframes box {
+    from{
+        left: -50vw;
+    }
+    to{
+        left: 0vw;
+    }
+}
+
 #hi{
     font-size: 2vw;
     font-weight: bold;
@@ -63,6 +145,7 @@ a:hover{
 }
 #main{
     display: flex;
+    margin-bottom:55vw;
 }
 #ahmadpng{
     width: 30vw;
@@ -78,7 +161,21 @@ a:hover{
     margin-left: 10vw;
     margin-top: 10vw;
     height: 30vw;
+    position: absolute;
+    right: -50vw;
     box-shadow: 0px 1px 15px 10px rgb(24, 101, 255);
+    animation-name: pic;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes pic {
+    from{
+        right: -50vw;
+    }
+    to{
+        right: 7vw;
+    }
 }
 .png:hover{
     box-shadow: 0px 1px 10px 10px rgb(24, 101, 255);
@@ -94,8 +191,10 @@ b{
 }
 #ab{
     text-align: center;
-    text-decoration: underline;
+    position: relative;
+    text-decoration: underline;    
 }
+
 .box2{
     width: 50vw;
 }
@@ -111,8 +210,9 @@ b{
  
 }
 #para1{
-    font-size: 2vw;
+    font-size: 2vw; 
 }
+
 .b2{
     width: 70vw;
     padding: 5vw;
@@ -335,22 +435,36 @@ button:hover{
     position: absolute;
     margin-top: 2vw;
     cursor: pointer;
+    position: absolute;
+    left: 6vw;
+    top: 39vw;
 }
 #cv{
     width: 14vw;
     height: 4vw;
     margin-left: 8vw;
     cursor: pointer;
+    position: absolute;
 
 }
 #cvv{
     color: white;
 }
+#ab{
+    color: rgb(24, 101, 255);
+}
+#projects{
+    color: rgb(24, 101, 255);
+    text-decoration: underline;
+}
+#proj{
+    color: rgb(24, 101, 255);
+}
 @media (max-width:600px) {
     #github{
         font-size: 10vw;
         position: absolute;
-        margin-top: 2vw;
+        margin-top: 71vw;
         cursor: pointer;
     }
     #cv{
@@ -371,6 +485,7 @@ button:hover{
         width: 50vw;
         z-index: 100;
         position:absolute;
+    
     }
     #bb{
         color: white;
@@ -390,17 +505,45 @@ button:hover{
         top: 0;
         overflow: hidden;
         z-index: 100;
-    }   
+        animation-name: nav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 98vw;
+    top: -50vw;
+    
+}
+@keyframes nav{
+    from{
+        top: -50vw;
+    }
+    to{
+        top: 0vw;
+    }
+}  
     #main{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 15vw;
     }
-    h1{
+    #zulfi{
         font-size: 5vw;
-        margin-left: 10vw;
+        margin-left: -50vw;
         color: rgb(24, 101, 255);
-        
-    } 
+        animation-name: ahmad;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    margin-left: -50vw;
+    animation-fill-mode: forwards;
+}
+@keyframes ahmad {
+    from{
+        margin-left: -50vw;
+    }
+    to{
+        margin-left: 10vw;
+    }
+}
     li{
         display:none;
 
@@ -416,9 +559,27 @@ button:hover{
         height: 35vw;
         padding: 5vw;
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: 7vw;
+        padding-top: 2vw;
+        position: relative;
+        top: 100vw;
+        margin-bottom: 50vw;
+        left: -90vw;
         padding-left: 6vw;
+        animation-name: navbar;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+
     }
+    @keyframes navbar{
+        from{
+            left: -90vw;
+        }
+        to{
+            left: 0vw;
+        }
+    }
+    
     #hi{
         font-size: 5vw;
         font-weight: bold;
@@ -455,6 +616,21 @@ button:hover{
         margin-top: 10vw;
         height: 60vw;
         box-shadow: 0px 1px 15px 10px rgb(24, 101, 255);
+        animation-name: pic;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        position: absolute;
+        right: -65vw;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes pic {
+        from{
+            right: -65vw;
+        }
+        to{
+            right: 20vw;
+        }
     }
     .para{
         font-size: 5vw;
