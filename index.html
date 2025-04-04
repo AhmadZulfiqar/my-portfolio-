@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="port.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,11 +13,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Zulfiqar's Portfolio</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="nav">
-      <h1 id="zulfi >Zulfiqar Ahmad</h1>
+      <h1 id="zulfi">Zulfiqar Ahmad</h1>
       <button id="menu"><i class="fa-solid fa-bars" id="menu1"></i></button>
       <div id="bar">
         <li><a href="#main">Home</a></li>
@@ -45,9 +45,11 @@
           websites.
         </p>
         <div class="box">
-        <a href=""><i class="fa-brands fa-github" id="github"></i></a>
-        <button id="cv"><a href="/CV_2025033017251725.pdf" id="cvv">CV</a></button>
-      </div>
+          <a href=""><i class="fa-brands fa-github" id="github"></i></a>
+          <button id="cv">
+            <a href="/CV_2025033017251725.pdf" id="cvv">CV</a>
+          </button>
+        </div>
       </div>
       <div class="box2">
         <div class="png">
@@ -55,7 +57,7 @@
         </div>
       </div>
     </div>
-    <br>
+    <br />
     <div id="about">
       <h1 id="ab">About</h1>
       <div class="section">
@@ -109,7 +111,7 @@
         </div>
         <div id="line4"></div>
         <div class="skill1">
-          <img src="./c++.png" id="c" alt="" />
+          <img src="/c++.png" id="c" alt="" />
           <span id="ht">C++</span>
           <span id="per5">98%</span>
         </div>
@@ -125,7 +127,7 @@
         <h1 id="proj">Weather App:</h1>
         <div class="cont">
           <img src="./weather.jpg" alt="" id="weat" />
-          <br>
+          <br />
           <span id="weather"></span>
           <br />
           <button id="bt1">
@@ -261,10 +263,14 @@
         m = 0;
       }
     });
-    var typed = new Typed("#element", {
+    setTimeout(() => {
+      var typed = new Typed("#element", {
       strings: ["Web Developer", "Graphic Designer"],
       typeSpeed: 50,
-    });
+    });  
+    }, 3500);
+   
+    
     var typed1 = new Typed("#weather", {
       strings: ["Check out the weather website! Just click the button below."],
       typeSpeed: 50,
